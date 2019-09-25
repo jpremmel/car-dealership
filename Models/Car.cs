@@ -2,10 +2,10 @@ namespace Dealership.Models
 {
   class Car
   {
-    public string MakeModel;
-    public int Price;
-    public int Miles;
-    public string Details;
+    private string MakeModel;
+    private int Price;
+    private int Miles;
+    private string Details;
 
 
     public Car(string makeModel, int price, int miles, string details)
